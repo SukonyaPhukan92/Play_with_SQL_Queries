@@ -1,10 +1,13 @@
 # SQL_Queries
 
 DEPARTMENT (dept_number, dept_name, location, manager_ssn)
-EMPLOYEE (ssn, name, address, salary, birthdate, supervisor_ssn, 
-department_number)
+
+EMPLOYEE (ssn, name, address, salary, birthdate, supervisor_ssn, department_number)
+
 PROJECT (project_number, project_name, location, department_number)
+
 WORKS_ON (ssn, project_number, hours)
+
 DEPENDENT (dependent_name, employee_ssn, sex, birthdate, relationship)
 
 1. Create the tables along with necessary constraints (primary key, foreign 
